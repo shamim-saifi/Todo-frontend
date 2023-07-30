@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { Link, Navigate,useNavigate } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 import axios from 'axios';
 import { server } from '../../App'
 import { Context } from '../../index'
@@ -7,7 +7,6 @@ import toast from 'react-hot-toast'
 import Loading from '../Loading/Loading';
 
 const Login = () => {
-  const naviagte=useNavigate()
 
   const { isAuth, setisAuth, loading, setloading } = useContext(Context)
 

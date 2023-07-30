@@ -10,7 +10,7 @@ import { Navigate } from 'react-router-dom'
 
 
 const UserData = () => {
-  const { isAuth} = useContext(Context)
+  const { isAuth,user} = useContext(Context)
 
 
   const [title, setTitle] = useState('')
