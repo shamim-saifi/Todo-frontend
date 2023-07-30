@@ -15,7 +15,7 @@ const Nav = () => {
     const logoutHander = async () => {
         setloading(true)
         try {
-            await axios.get(`${server}/logout`, { withCredentials: true })
+            await axios.get(`${server}/user/logout`, { withCredentials: true }) 
 
             toast.success('LOGOUT SUCCESSFULLY');
             setisAuth(false);
