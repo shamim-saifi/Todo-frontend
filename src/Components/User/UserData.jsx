@@ -21,8 +21,6 @@ const UserData = () => {
 
   const taskHandler = async (e) => {
     e.preventDefault()
-   
-
     try {
       setloading(true)
       const { data } = await axios.post(`${server}/task/createtask`,
