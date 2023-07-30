@@ -1,0 +1,28 @@
+.UserData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(219, 48%, 90%);
+
+}
+.UserData>h1{
+    font-size: 5vmax;
+    border-bottom: 1px solid black;
+}
+.showTask{
+    padding: 1vmax;
+    width: 8vmax;
+    margin: 1vmax;
+    border-radius: 20px;
+    font-size: .9vmax;
+    font-family: "Roboto";
+    border: none;
+    transition: all.5s;
+    background-color: white;
+    margin: auto;
+}
+.showTask:hover{
+    background-color: hsl(219, 48%, 80%);
+    cursor: pointer;
+}
